@@ -1,0 +1,1 @@
+Checkpoint 1: https://azota.vn/de-thi/x4t265
