@@ -1,0 +1,26 @@
+body{
+    font-family: Arial;
+    margin:0;
+}
+
+nav{
+    background:#4a4aff;
+    padding:15px;
+}
+
+.logo{
+    width:40px;
+    vertical-align:middle;
+}
+
+nav a{
+    display:inline-block;
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:yellow;
+}

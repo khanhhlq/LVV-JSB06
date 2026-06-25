@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tap ve CSS position</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="menu-absolute">
+        <div class="logo">
+            <strong>My website</strong>
+            (Absolute Menu)
+        </div>
+
+        <nav>
+            <a href="#">Menu</a>
+            <a href="#">Products</a>
+            <a href="#">Contacts</a>
+        </nav>
+    </header>
+
+    <div class="notification-fixed">
+        ⚠️ [Fixed] You have a new notification!
+    </div>
+
+    <main class="content-wrapper">
+        <h2>Demo of all types of properties' position in CSS</h2>
+        <p style="color: #666; font-style: italic;">
+            Hint: Attempt to scroll your mouse down to observe the movements of each sections
+        </p>
+
+        <hr>
+
+        <h3 class="paragraph-statics">Position: Static (Default)</h3>
+        <p>This is a nornal text, using property: <strong>position: static</strong>. This factor utterly comprises in
+            the natural flow of the text, unable to be influenced by properties like top, bottom, left, right and will
+            be sorted from top to down.</p>
+
+        <h3>Position: Relative</h3>
+        <p>Down here is a button navigated using <strong>relative</strong> to push it into the right bottom of the
+            content:</p>
+
+        <a href="#" class="btn-relative">Return to the start</a>
+    </main>
+</body>
+
+</html>

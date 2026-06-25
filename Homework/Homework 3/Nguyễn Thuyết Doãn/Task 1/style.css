@@ -1,0 +1,21 @@
+body{
+    background-image: url(cat2.png);
+    height: 100vh;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(255, 0, 0);
+    font-family: monospace;
+}
+
+.project{
+    text-decoration-color: red;
+}
+
+a {
+    color: rgb(255, 132, 0);
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Bán Hàng Của Tôi</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Nhúng icon từ Google để làm giỏ hàng, tìm kiếm -->
+    <link rel="stylesheet" href="https://googleapis.com" />
+</head>
+<body>
+
+    <!-- 1. THANH NAVBAR TRÊN CÙNG -->
+    <nav class="navbar">
+        <div class="nav-logo">MYSHOP</div>
+        <div class="nav-search">
+            <input type="text" placeholder="Tìm sản phẩm...">
+            <button><span class="material-symbols-outlined">search</span></button>
+        </div>
+        <div class="nav-cart">
+            <span class="material-symbols-outlined">shopping_cart</span>
+            <span class="cart-count">0</span>
+        </div>
+    </nav>
+
+    <!-- KHUNG CHỨA CHÍNH (Chia đôi Sidebar và Nội dung sản phẩm) -->
+    <div class="main-layout">
+        
+        <!-- 2. THANH SIDEBAR BÊN TRÁI -->
+        <aside class="sidebar">
+            <h3>Danh mục</h3>
+            <ul>
+                <li><a href="#" class="active">Tất cả sản phẩm</a></li>
+                <li><a href="#">Giày Thể Thao</a></li>
+                <li><a href="#">Áo Khoác Bomber</a></li>
+                <li><a href="#">Phụ kiện thời trang</a></li>
+            </ul>
+
+            <h3>Khoảng giá</h3>
+            <ul>
+                <li><input type="checkbox"> Dưới 200.000đ</li>
+                <li><input type="checkbox"> 200.000đ - 500.000đ</li>
+                <li><input type="checkbox"> Trên 500.000đ</li>
+            </ul>
+        </aside>
+
+        <!-- 3. KHUNG CHỨA SẢN PHẨM PHÍA BÊN PHẢI -->
+        <main class="product-container">
+            <!-- Sản phẩm 1 -->
+            <div class="product-card">
+                <div class="product-image-wrapper">
+                    <img src="https://picsum.photos" alt="Giày Thể Thao" class="product-image">
+                    <button class="buy-now-btn">Mua ngay</button>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Giày Thể Thao Nam</h3>
+                    <p class="product-price">500.000 đ</p>
+                </div>
+            </div>
+
+            <!-- Sản phẩm 2 -->
+            <div class="product-card">
+                <div class="product-image-wrapper">
+                    <img src="https://picsum.photos" alt="Áo Khoác" class="product-image">
+                    <button class="buy-now-btn">Mua ngay</button>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Áo Khoác Bomber</h3>
+                    <p class="product-price">350.000 đ</p>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+</body>
+</html>

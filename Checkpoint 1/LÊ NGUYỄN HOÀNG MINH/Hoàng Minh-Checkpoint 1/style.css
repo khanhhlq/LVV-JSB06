@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 25%;
+    border-radius: 60%;
+}
+.hobbies{
+    border: solid;
+    border-radius: 5%;
+    background-color: bisque;
+}
+.skills{
+    border: solid;
+    box-shadow: 20%;
+    border-style: dashed;
+    background-color: aliceblue;
+}
+.contact{
+    border: solid;
+    box-shadow: 30%;
+    border-style: dotted;
+    font-weight: bold;
+    border-radius: 6%;
+    
+    
+}
+a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}    

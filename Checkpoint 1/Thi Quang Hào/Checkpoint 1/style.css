@@ -1,0 +1,52 @@
+body {
+    background-color: #f0f4f8;   /* Màu nền trang web */
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #8000ff;              /* Màu chữ tiêu đề */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #333333;              /* Màu chữ đoạn văn */
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+img {
+    width: 250px;                
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.ki-nang, .lien-he {
+    border: 2px solid #3b82f6;   /* Đường viền cho danh sách kỹ năng và mạng xã hội */
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.ki-nang li, .lien-he li {
+    text-align: left;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.lien-he a {
+    color: #1e40af;
+    text-decoration: none;
+}
+
+.lien-he a:hover {
+    text-decoration: underline;
+}
