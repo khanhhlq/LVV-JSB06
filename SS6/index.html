@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Dog Social</title>
+
+  <!-- Bootstrap CSS -->
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+  >
+
+  <style>
+    .title-section {
+      background-color: #ff4c68;
+      color: white;
+      padding: 80px 0;
+    }
+
+    .feature-box {
+      padding: 30px;
+      text-align: center;
+    }
+
+    .testimonial-section {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+    }
+
+    .cta-section {
+      background-color: #ff4c68;
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    footer {
+      padding: 30px 0;
+      text-align: center;
+      background-color: #212529;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Dog Social</a>
+
+      <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Title Section -->
+  <section class="title-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1 class="display-4 fw-bold">
+            Kết nối những chú cún đáng yêu gần bạn
+          </h1>
+
+          <p class="lead mt-3">
+            Dog Social giúp chủ nuôi tìm kiếm, kết nối và chia sẻ khoảnh khắc cùng những người yêu thú cưng.
+          </p>
+
+          <button class="btn btn-light btn-lg mt-3">
+            Tham gia ngay
+          </button>
+
+          <button class="btn btn-outline-light btn-lg mt-3 ms-2">
+            Tìm hiểu thêm
+          </button>
+        </div>
+
+        <div class="col-lg-6 text-center mt-4 mt-lg-0">
+          <div style="font-size: 180px;">🐶</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="container py-5">
+    <h2 class="text-center fw-bold mb-5">Tính năng nổi bật</h2>
+
+    <div class="row">
+      <div class="col-md-4 feature-box">
+        <h3>📍 Tìm bạn gần đây</h3>
+        <p>Dễ dàng tìm những chú cún và chủ nuôi ở gần khu vực của bạn.</p>
+      </div>
+
+      <div class="col-md-4 feature-box">
+        <h3>💬 Kết nối nhanh</h3>
+        <p>Trò chuyện, chia sẻ kinh nghiệm chăm sóc thú cưng với cộng đồng.</p>
+      </div>
+
+      <div class="col-md-4 feature-box">
+        <h3>⭐ Hồ sơ thú cưng</h3>
+        <p>Tạo hồ sơ riêng cho cún cưng với tên, tuổi, giống loài và sở thích.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonial-section">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">Người dùng nói gì?</h2>
+
+      <p class="lead">
+        “Nhờ Dog Social, mình đã tìm được nhiều người bạn mới cho chú cún của mình.”
+      </p>
+
+      <h5 class="mt-3">- Minh Anh, TP.HCM</h5>
+    </div>
+  </section>
+
+  <!-- Press -->
+  <section class="container py-5 text-center">
+    <h2 class="fw-bold mb-4">Được nhắc đến bởi</h2>
+
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <h4>PetNews</h4>
+      </div>
+
+      <div class="col-md-3 col-6">
+        <h4>DogLife</h4>
+      </div>
+
+      <div class="col-md-3 col-6">
+        <h4>AnimalCare</h4>
+      </div>
+
+      <div class="col-md-3 col-6">
+        <h4>HappyPet</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="container py-5">
+    <h2 class="text-center fw-bold mb-5">Bảng giá</h2>
+
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card text-center h-100">
+          <div class="card-header">
+            <h3>Free</h3>
+          </div>
+
+          <div class="card-body">
+            <h2>0đ</h2>
+            <p>Tạo hồ sơ thú cưng</p>
+            <p>Xem danh sách bạn bè</p>
+            <button class="btn btn-outline-primary">Đăng ký</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card text-center h-100">
+          <div class="card-header">
+            <h3>Basic</h3>
+          </div>
+
+          <div class="card-body">
+            <h2>49.000đ</h2>
+            <p>Nhắn tin không giới hạn</p>
+            <p>Tìm kiếm theo khu vực</p>
+            <button class="btn btn-primary">Đăng ký</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card text-center h-100">
+          <div class="card-header">
+            <h3>Premium</h3>
+          </div>
+
+          <div class="card-body">
+            <h2>99.000đ</h2>
+            <p>Tất cả tính năng</p>
+            <p>Ưu tiên hiển thị hồ sơ</p>
+            <button class="btn btn-primary">Đăng ký</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="contact" class="cta-section">
+    <div class="container">
+      <h2 class="fw-bold">Tham gia cộng đồng Dog Social ngay hôm nay!</h2>
+
+      <p class="lead mt-3">
+        Cùng kết nối những người yêu thú cưng trên khắp mọi nơi.
+      </p>
+
+      <button class="btn btn-light btn-lg mt-3">
+        Bắt đầu ngay
+      </button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Dog Social. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+</body>
+</html>
