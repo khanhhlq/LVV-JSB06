@@ -1,0 +1,38 @@
+/* Google Font */
+body{
+    font-family: "Yuyu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Title */
+.title-section{
+    background:#ff4c68;
+    color:white;
+    padding:100px 0;
+    text-align:center;
+}
+
+.title-section h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.title-section p{
+    font-size:22px;
+    width:70%;
+    margin:auto;
+    margin-bottom:30px;
+}
+
+.btn{
+    font-size:20px;
+    padding:12px 30px;
+}
